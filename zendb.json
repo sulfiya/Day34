@@ -1,0 +1,112 @@
+[
+  {
+  "zenprogram": {
+    "users": [
+      {
+        "user_id": 1,
+        "name": "Alice",
+        "email": "alice@example.com",
+        "role": "student"
+      },
+      {
+        "user_id": 2,
+        "name": "Bob",
+        "email": "bob@example.com",
+        "role": "student"
+      }
+    ],
+    "codekata": [
+      {
+        "codekata_id": 1,
+        "title": "Basic HTML",
+        "description": "Introduction to HTML",
+        "date": "2020-10-30"
+      },
+      {
+        "codekata_id": 2,
+        "title": "Basic CSS",
+        "description": "Introduction to CSS",
+        "date": "2020-11-10"
+      },
+      {
+        "codekata_id": 3,
+        "title": "Basic Javascript",
+        "description": "Introduction to Javascript",
+        "date": "2020-11-10"
+      }
+    ],
+    "attendance": [
+      {
+        "attendance_id": 1,
+        "user_id": 1,
+        "codekata_id": 1,
+        "date": "2020-10-07",
+        "status": "present"
+      },
+      {
+        "attendance_id": 2,
+        "user_id": 2,
+        "codekata_id": 1,
+        "date": "2020-10-14",
+        "status": "absent"
+      }
+    ],
+    "topics": [
+      {
+        "topic_id": 1,
+        "title": "HTML",
+        "description": "Fundamental of HTML programming"
+      },
+      {
+        "topic_id": 2,
+        "title": "CSS",
+        "description": "different styles and their applications"
+      },
+      {
+        "topic_id": 3,
+        "title": "Javascript",
+        "description": "Responsive web design"
+      }
+    ],
+    "tasks": [
+      {
+        "task_id": 1,
+        "topic_id": 1,
+        "description": "Implement a basic form page"
+      },
+      {
+        "task_id": 2,
+        "topic_id": 2,
+        "description": "Implement basic form with styles"
+      }
+    ],
+    "company_drives": [
+      {
+        "drive_id": 1,
+        "title": "Tech Company Recruitment Drive",
+        "date": "2020-10-20",
+        "description": "Recruitment drive by a tech company"
+      },
+      {
+        "drive_id": 2,
+        "title": "Startup Recruitment Drive",
+        "date": "2020-10-25",
+        "description": "Recruitment drive by a startup"
+      }
+    ],
+    "mentors": [
+      {
+        "mentor_id": 1,
+        "name": "Mentor A",
+        "email": "mentorA@example.com"
+      },
+      {
+        "mentor_id": 2,
+        "name": "Mentor B",
+        "email": "mentorB@example.com"
+      }
+    ]    
+    
+  }
+}
+]
